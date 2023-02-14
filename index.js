@@ -1,14 +1,14 @@
-// TODO: Include packages needed for this application
+//Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
 const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown")
 
 
-// TODO: Create a function to write README file
+//Create a function to write README file
 function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
+//Create a function to initialize app and questions for readme
 function init() {
   inquirer
   .prompt([
@@ -29,8 +29,8 @@ function init() {
     },
     {
       type: 'input',
-      name: 'usage',
-      message: 'What is your usage?',
+      name: 'useage',
+      message: 'What is your useage?',
     },
     {
       type: 'list',
@@ -49,6 +49,7 @@ function init() {
       message: 'What command should I run to run tests?',
     },
   ])
+  // generate read me file
   .then((answers) => {
     const readMe = generateMarkdown(answers);
 
@@ -57,6 +58,4 @@ function init() {
     );
   });
 }
-
-// Function call to initialize app
 init();
