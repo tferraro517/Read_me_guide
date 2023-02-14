@@ -48,6 +48,16 @@ function init() {
       name: 'test',
       message: 'What command should I run to run tests?',
     },
+    {
+    type: 'input',
+    name: 'github',
+    message: 'What is your github username?',
+  },
+{
+  type: 'input',
+  name: 'email',
+  message: 'What is your email address?',
+},
   ])
   // generate read me file
   .then((answers) => {
