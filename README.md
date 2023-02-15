@@ -27,7 +27,8 @@ node index.js
 Questions
 
 Github
-tferraro517
+tferraro517![readme snip](https://user-images.githubusercontent.com/118402182/218924349-d87d6ebf-ad42-4472-a1bc-625bc900e46c.png)
+
 
 Email
 tferraro517@gmail.com
