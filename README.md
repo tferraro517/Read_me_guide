@@ -2,36 +2,34 @@
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
-Readme Guide
+##Readme Guide
 Description
 To help the user create a simple readme.md file through the terminal
 
-Table of Contents (Optional)
-Installation
-Usage
-Credits
-License
-Installation
+##Table of Contents 
+
+##Installation
 node and npm inquirer
 
-Usage
+##Usage
 Provide when and then statements to describe your repo
 
-License
+##License
 MIT License GitHub license
 
-How to Contribute
+
+##How to Contribute
 give credit to any contributers or thirdparty users
 
-Tests
+##Tests
 node index.js
 
 ##Questions
 
-Github
+##Github
 tferraro517
 
-Email
+##Email
 tferraro517@gmail.com
 
 link to tutorial https://drive.google.com/file/d/1N6JGJyflXocB6526QnHOWhIpR1CL1rHr/view
